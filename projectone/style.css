@@ -17,5 +17,25 @@ table tr td{
     height: auto;
     background-color: tomato;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
+}
+
+.product_cart img{
+    width: 100%;
+    height: auto;
+}
+
+.product_cart button{
+    height: 40px;
+    color: white;
+    background-color: blue;
+}
+
+.clear{
+    clear: both;
+}
+
+h3{
+    background-color: blue;
 }
